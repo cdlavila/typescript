@@ -16,15 +16,15 @@ const a: A = {
 console.log(a);
 
 
-// type B = {
-//     campo1: number,
-//     campo2: string
-// }
-//
-// type B = {
-//     campo3: number
-// }
-//
-// console.log(B);
-//
-// // ESTO DEVOLVERÁ UN ERROR: Duplicate identifier 'B'
+type B = {
+    campo1: number,
+    campo2: string
+}
+
+type B = {
+    campo3: number
+}
+
+console.log(B);
+
+// ESTO DEVOLVERÁ UN ERROR: Duplicate identifier 'B'
